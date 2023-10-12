@@ -1,0 +1,9 @@
+subjects=["physics", "calculus", "poetry","history"]
+grades = [98, 97, 85 , 88]
+gradesbook= np.stack((subjects, grades),axis=1)
+print (gradebook)
+gradebook.append(["computer science",100])
+print (gradebook)
+gradebook.append(["visual art",93])
+print (gradebook)
+gradebook[5][1] = gradebook[5][1]+5
